@@ -58,7 +58,7 @@ class data_loader(object):
         return self.data
 
 
-class spikegan(object):
+class neurogan(object):
     def __init__(self, sess, args):
         self.sess = sess
         self.data = data_loader(args.dataset_dir)
